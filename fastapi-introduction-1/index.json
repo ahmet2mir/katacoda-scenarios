@@ -1,0 +1,54 @@
+{
+  "title": "FastAPI introduction",
+  "description": "Create a FastAPI application",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "intro": {
+      "text": "00-introduction.md",
+      "background": "background.sh",
+      "foreground": "foreground.sh"
+    },
+    "finish": {
+      "text": "99-finish.md"
+    },
+    "steps": [
+      {
+        "text": "01-install-pipx.md"
+      },
+      {
+        "text": "02-install-poetry.md"
+      },
+      {
+        "text": "03-poetry-new-project.md"
+      },
+      {
+        "text": "04-add-fastapi.md"
+      },
+      {
+        "text": "05-fastapi-first-steps.md"
+      }
+    ],
+    "assets": {
+      "client": [
+        {
+          "file": "challenge.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        },
+        {
+          "file": "cheat",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "showide": true
+  },
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}
